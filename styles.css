@@ -2,19 +2,40 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Delius", cursive;
+    font-family: poppins, sans-serif;
+}
+
+body{
+
+    padding: 40px 100px 300px 70px;
 }
 
 img{
     width: 110px;
+
 }
 
 .CONTEUDO-text{
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 500;
+    font-style: normal;
 }
 
-p{
-    font-size: 18px;
+span{
+    font-weight:  700;
+    color: rgb(10, 143, 81);
+    font-size: 40px;
+}
+
+button{
+    color: white;
+    background-color: rgb(10, 143, 81);
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+ 
+    padding: 10px;
+    font-size: 14px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Sombra na direita e embaixo */
+    transition: box-shadow 0.3s ease;
 }
 
