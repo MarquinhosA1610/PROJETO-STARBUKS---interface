@@ -21,7 +21,7 @@ img{
 }
 
 span{
-    font-weight:  700;
+    font-weight:  800;
     color: rgb(10, 143, 81);
     font-size: 40px;
 }
@@ -37,5 +37,36 @@ button{
     font-size: 14px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Sombra na direita e embaixo */
     transition: box-shadow 0.3s ease;
+    
 }
 
+button:hover {
+    box-shadow: 7px 7px 12px 
+    rgba(0, 0, 0, 0.6); /* Efeito de destaque*/
+}  
+
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 5px 
+    rgba(0, 0, 0, 0.2); /* Reduz a sombra */
+}
+
+.LOGO{
+    width: 150px;
+    padding-bottom: 45px;
+}
+
+        .principal-img{
+            width: 250PX;
+        }
+
+        .menor-coffe{
+                width: 60px;
+                cursor: pointer;
+                margin: 8PX 8PX;
+        }
+
+        .menor-coffe:hover{
+                transform: translateY(-30PX);
+                transition: 0.2s;
+        }
