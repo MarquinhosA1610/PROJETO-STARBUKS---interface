@@ -7,17 +7,38 @@
 
 body{
 
-    padding: 40px 100px 300px 70px;
+    padding: 20px 80px 100px ;
 }
 
-img{
-    width: 110px;
+.conteudo{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.box-text{
+    width: 600px;
 
 }
 
-.CONTEUDO-text{
-    font-weight: 500;
-    font-style: normal;
+.box-image{
+    width: 600px;;
+    display: flex;
+    padding-left: 270px;  
+}
+
+.menores{
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+h2{
+    color: #333;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 span{
@@ -27,6 +48,8 @@ span{
 }
 
 button{
+    margin-top: 20px;
+    margin-left: 20px;
     color: white;
     background-color: rgb(10, 143, 81);
     border-radius: 17px;
@@ -57,7 +80,8 @@ button:active {
 }
 
         .principal-img{
-            width: 250PX;
+            width: 270px;
+             display: flex;
         }
 
         .menor-coffe{
@@ -70,3 +94,4 @@ button:active {
                 transform: translateY(-30PX);
                 transition: 0.2s;
         }
+
