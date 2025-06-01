@@ -19,13 +19,12 @@ body{
 
 .box-text{
     width: 600px;
-
 }
 
 .box-image{
     width: 600px;;
     display: flex;
-    padding-left: 270px;  
+    justify-content: flex-end; 
 }
 
 .menores{
@@ -81,10 +80,12 @@ button:active {
 
         .principal-img{
             width: 270px;
-             display: flex;
+            display: flex;
+            margin-left: 300px;
         }
 
         .menor-coffe{
+                margin: 10px;
                 width: 60px;
                 cursor: pointer;
                 margin: 8PX 8PX;
@@ -95,3 +96,14 @@ button:active {
                 transition: 0.2s;
         }
 
+
+        .circulo{
+            position: absolute;
+            background:rgb(10, 143, 81);
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            clip-path: circle(560px at right 800px);
+            z-index: -1;
+        }
