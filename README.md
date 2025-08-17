@@ -29,8 +29,4 @@
   <a href = "mailto:marquinalexandre2005@gmail.com"> <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </footer>
 
-<br>
 
-<br clear="both">
-
-![snake gif](https://github.com/MarquinhosA1610/PROJETO-STARBUKS---interface/blob/output/github-contribution-grid-snake.svg)
